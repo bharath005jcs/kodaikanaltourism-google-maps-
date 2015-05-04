@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:padding="15dp"
+    >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="300dp"
+        android:src="@drawable/tourist"
+        android:paddingBottom="15dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="General Information"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:paddingBottom="5dp"
+         />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Altitude : 2,133 metres"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:paddingBottom="5dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Temperature (deg C): Summer- Max 19.3, Min 11.3; winter- Max 17.3, Min 8.3"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:paddingBottom="5dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Best Season: April to June and September to October"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:paddingBottom="5dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="STD Code: 04542"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:paddingBottom="5dp" />
+
+  </LinearLayout>
